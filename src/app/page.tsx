@@ -3,6 +3,7 @@ import Image from "next/image";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const navItems = [
+  { label: "Home", href: "#hero" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "About", href: "#about" },
@@ -283,10 +284,13 @@ export default function Home() {
       </header>
 
       <main id="top" className="mx-auto max-w-6xl px-6 pb-20 pt-12">
-        <section id="hero" className="grid gap-12 py-20 md:grid-cols-[1.1fr_0.9fr] md:items-center">
+        <section
+          id="hero"
+          className="grid min-h-[calc(100dvh-4rem)] scroll-mt-16 gap-12 py-20 md:grid-cols-[1.1fr_0.9fr] md:items-center"
+        >
           <div>
             <p className="text-xs uppercase tracking-[0.3em] text-sky-600">
-              Fullstack Developer Student | LIA Internship Candidate
+              Fullstack Developer Student
             </p>
             <h1 className="mt-4 text-4xl font-display font-semibold leading-tight md:text-5xl">
               Florencia Méndez Quintana
@@ -320,7 +324,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="projects" className="py-28">
+        <section id="projects" className="scroll-mt-16 py-28">
           <h2 className="text-2xl font-display font-semibold">Projects</h2>
           <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
             A selection of recent fullstack and backend-focused projects.
@@ -398,7 +402,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="skills" className="py-24">
+        <section id="skills" className="scroll-mt-16 py-24">
           <h2 className="text-2xl font-display font-semibold">Skills</h2>
           <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
             Grouped by area with the tools and concepts I use most.
@@ -419,7 +423,7 @@ export default function Home() {
                       {group.title}
                     </h3>
                   </div>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-3">
                     {group.items.map((item) => (
                       <span
                         key={item}
@@ -435,7 +439,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="py-24">
+        <section id="about" className="scroll-mt-16 py-24">
           <div className="grid gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-stretch">
             <div>
               <p className="text-xs uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">
@@ -484,7 +488,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" className="py-24">
+        <section id="contact" className="scroll-mt-16 py-24">
           <h2 className="text-2xl font-display font-semibold">Contact</h2>
           <p className="mt-3 text-slate-600 dark:text-slate-300 md:whitespace-nowrap">
             Interested in connecting or discussing internship opportunities? Feel

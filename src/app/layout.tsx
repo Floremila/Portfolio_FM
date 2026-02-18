@@ -14,7 +14,7 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: "Florencia Méndez Quintana | Portfolio",
-  description: "Fullstack Developer Student | LIA Internship Candidate",
+  description: "Fullstack Developer Student",
   icons: {
     icon: "/fm-dark.png",
   },
