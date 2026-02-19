@@ -33,7 +33,8 @@ export default function Hero({ hero }: HeroProps) {
         </div>
       </div>
       <div className="flex justify-center md:justify-end">
-        <div className="rounded-3xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+        <div className="relative rounded-3xl border border-slate-200 bg-white p-3 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+          <div className="pointer-events-none absolute -inset-7 rounded-[2.6rem] bg-gradient-to-br from-sky-500/18 via-sky-500/8 to-transparent blur-[28px] dark:from-sky-400/22 dark:via-sky-400/10 dark:to-transparent" />
           <Image
             src={hero.image.src}
             alt={hero.image.alt}
@@ -41,7 +42,7 @@ export default function Hero({ hero }: HeroProps) {
             height={520}
             priority
             sizes="(min-width: 1024px) 20rem, (min-width: 768px) 18rem, 70vw"
-            className="w-72 max-w-full rounded-2xl object-cover md:w-80"
+            className="relative w-72 max-w-full rounded-2xl object-cover md:w-80"
           />
         </div>
       </div>
