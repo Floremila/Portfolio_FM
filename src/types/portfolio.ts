@@ -13,7 +13,7 @@ export type Project = {
   tech: string[];
   tags?: string[];
   liveUrl?: string;
-  codeUrl: string;
+  codeUrl?: string;
   logo?: string;
   image?: string;
   imageAlt: string;
