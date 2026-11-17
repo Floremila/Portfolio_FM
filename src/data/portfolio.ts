@@ -28,7 +28,7 @@ export const navItems: NavItem[] = [
 ];
 
 export const hero: HeroData = {
-  eyebrow: "Java Developer Student · Former Talent Acquisition Coordinator",
+  eyebrow: "Java Developer Student · Talent Acquisition Coordinator Background",
   name: "Florencia Méndez Quintana",
   tagline:
     "I build reliable, structured software with a people-first mindset, bringing a coordination background in talent acquisition and operations to how I work with teams, users and systems.",
