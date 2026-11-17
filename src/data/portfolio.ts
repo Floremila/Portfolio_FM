@@ -41,6 +41,17 @@ export const hero: HeroData = {
 
 export const projects: Project[] = [
   {
+    title: "Liabron",
+    description:
+      "A role-based platform that connects vocational schools (YH), students and companies around the mandatory LIA internship. Schools load programme information once, from a PDF, and share an invite link; companies offer placements without reading PDFs, and students apply or share their own self-sourced placement for company confirmation. Built as a pilot with Lovable and extended with a focus on access control (server-verified roles, row-level security, private file storage) and personal-data protection. The idea was validated with my programme coordinator.",
+    tech: ["TanStack Start", "React", "TypeScript", "Supabase", "Row Level Security"],
+    tags: ["Product", "Fullstack"],
+    liveUrl: "https://liabrons.lovable.app/",
+    logo: "/liabron-logo.png",
+    image: "/liabron-ui.png",
+    imageAlt: "Liabron home page screenshot",
+  },
+  {
     title: "CheckGo",
     description:
       "A fullstack task management application where users can create, update, and delete tasks, while an admin user can view existing users. Built with a Java Spring Boot REST API secured with JWT-based authentication and role-based access, a PostgreSQL database, and a Vite frontend that consumes the API.",
@@ -89,7 +100,7 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "Databases",
     icon: DatabaseIcon,
-    items: ["PostgreSQL", "MySQL", "MongoDB"],
+    items: ["PostgreSQL", "Supabase", "MySQL", "MongoDB"],
   },
   {
     title: "Web & APIs",
@@ -99,7 +110,7 @@ export const skillGroups: SkillGroup[] = [
   {
     title: "Security",
     icon: LockIcon,
-    items: ["JWT authentication", "Authentication & Authorization"],
+    items: ["JWT authentication", "Authentication & Authorization", "Row Level Security"],
   },
   {
     title: "Testing",
@@ -120,6 +131,7 @@ export const skillGroups: SkillGroup[] = [
       "Sprints",
       "User stories",
       "Task boards",
+      "Stakeholder feedback",
     ],
   },
 ];
