@@ -48,7 +48,8 @@ export const projects: Project[] = [
     tags: ["Product", "Fullstack"],
     liveUrl: "https://liabrons.lovable.app/",
     logo: "/liabron-logo.png",
-    imageAlt: "Liabron interface placeholder",
+    image: "/liabron-ui.png",
+    imageAlt: "Liabron home page screenshot",
   },
   {
     title: "CheckGo",
