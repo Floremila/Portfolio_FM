@@ -45,7 +45,7 @@ export const projects: Project[] = [
     description:
       "A role-based platform that connects vocational schools (YH), students and companies around the mandatory LIA internship. Schools load programme information once, from a PDF, and share an invite link; companies offer placements without reading PDFs, and students apply or share their own self-sourced placement for company confirmation. Built as a pilot with Lovable and extended with a focus on access control (server-verified roles, row-level security, private file storage) and personal-data protection. The idea was validated with my programme coordinator.",
     tech: ["TanStack Start", "React", "TypeScript", "Supabase", "Row Level Security"],
-    tags: ["Product", "Fullstack"],
+    tags: ["Product", "Fullstack", "Building with AI"],
     liveUrl: "https://liabrons.lovable.app/",
     logo: "/liabron-logo.png",
     image: "/liabron-ui.png",
@@ -121,6 +121,17 @@ export const skillGroups: SkillGroup[] = [
     title: "Cloud & DevOps (intro)",
     icon: CloudIcon,
     items: ["Docker", "CI/CD concepts", "AWS/Azure"],
+  },
+  {
+    title: "AI-Assisted Development",
+    icon: CodeIcon,
+    items: [
+      "Lovable",
+      "Claude",
+      "Prompting",
+      "Reviewing AI-generated code",
+      "Security & data-protection review",
+    ],
   },
   {
     title: "Ways of Working",
