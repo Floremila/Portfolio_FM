@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio-fm-2026.vercel.app"),
   title: "Florencia Méndez Quintana | Portfolio",
   description:
-    "Java developer student in Stockholm, former talent acquisition coordinator. Projects, skills and contact.",
+    "Java developer student in Stockholm with a talent acquisition coordinator background. Projects, skills and contact.",
   openGraph: {
     title: "Florencia Méndez Quintana | Portfolio",
     description:
