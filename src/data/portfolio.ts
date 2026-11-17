@@ -28,10 +28,10 @@ export const navItems: NavItem[] = [
 ];
 
 export const hero: HeroData = {
-  eyebrow: "Java Developer Student · Talent Acquisition Background",
+  eyebrow: "Java Developer Student · Former Talent Acquisition Coordinator",
   name: "Florencia Méndez Quintana",
   tagline:
-    "I build reliable, structured software with a people-first mindset, bringing a talent acquisition background to how I work with teams, users and systems.",
+    "I build reliable, structured software with a people-first mindset, bringing a coordination background in talent acquisition and operations to how I work with teams, users and systems.",
   resumeUrl: "/Florencia-Mendez-Resume-2026.pdf",
   image: {
     src: "/florencia-dark.png",

@@ -20,10 +20,11 @@ export default function About() {
               interact.
             </p>
             <p>
-              Before moving into development I worked in talent acquisition and
-              analytical roles. That background shapes how I build: I
-              communicate clearly, think in structured steps and work easily
-              across different roles.
+              Before moving into development I worked as a talent acquisition
+              coordinator, and earlier in administrative and finance operations
+              (including SAP). That background shapes how I build: I
+              communicate clearly, think in structured steps and coordinate
+              easily across different roles.
             </p>
             <p>
               Outside of work I enjoy nature, novels in Spanish, ceramics,
