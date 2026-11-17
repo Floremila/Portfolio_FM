@@ -13,8 +13,17 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-fm-2026.vercel.app"),
   title: "Florencia Méndez Quintana | Portfolio",
-  description: "Fullstack Developer Student",
+  description:
+    "Java developer student in Stockholm with a talent acquisition background. Projects, skills and contact.",
+  openGraph: {
+    title: "Florencia Méndez Quintana | Portfolio",
+    description:
+      "Java developer student in Stockholm with a talent acquisition background. Projects, skills and contact.",
+    type: "website",
+    images: [{ url: "/florencia-dark.png", alt: "Florencia Méndez Quintana" }],
+  },
   icons: {
     icon: "/fm-dark.png",
   },

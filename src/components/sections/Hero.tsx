@@ -30,6 +30,12 @@ export default function Hero({ hero }: HeroProps) {
           >
             Download Resume
           </a>
+          <a
+            href="#projects"
+            className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-xs font-semibold text-slate-700 transition hover:border-slate-400 hover:text-slate-900 dark:border-slate-700 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:text-white"
+          >
+            View projects
+          </a>
         </div>
       </div>
       <div className="flex justify-center md:justify-end">

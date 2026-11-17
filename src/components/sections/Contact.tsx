@@ -9,7 +9,7 @@ export default function Contact({ contactLinks }: ContactProps) {
     <section id="contact" className="scroll-mt-16 py-24">
       <h2 className="text-2xl font-display font-semibold">Contact</h2>
       <p className="mt-3 text-slate-600 dark:text-slate-300 md:whitespace-nowrap">
-        Interested in connecting or discussing internship opportunities? Feel
+        Interested in connecting or discussing roles and collaborations? Feel
         free to reach out.
       </p>
       <div className="mt-8 flex flex-wrap gap-4">
