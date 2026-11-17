@@ -10,7 +10,7 @@ export default function Projects({ projects }: ProjectsProps) {
     <section id="projects" className="scroll-mt-16 py-28">
       <h2 className="text-2xl font-display font-semibold">Projects</h2>
       <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">
-        A selection of recent fullstack and backend-focused projects.
+        Selected projects: a product idea built end to end, and team projects in fullstack and backend development.
       </p>
       <div className="mt-10 grid gap-6 md:grid-cols-2">
         {projects.map((project) => (

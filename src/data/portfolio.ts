@@ -16,7 +16,6 @@ import {
   LinkedInIcon,
   LockIcon,
   MailIcon,
-  PhoneIcon,
   UsersIcon,
 } from "@/components/icons";
 
@@ -29,9 +28,10 @@ export const navItems: NavItem[] = [
 ];
 
 export const hero: HeroData = {
-  eyebrow: "Fullstack Developer Student",
+  eyebrow: "Java Developer Student · Former Talent Acquisition Coordinator",
   name: "Florencia Méndez Quintana",
-  tagline: "Reliable, structured software, built with collaboration in mind.",
+  tagline:
+    "I build reliable, structured software with a people-first mindset, bringing a coordination background in talent acquisition and operations to how I work with teams, users and systems.",
   resumeUrl: "/Florencia-Mendez-Resume-2026.pdf",
   image: {
     src: "/florencia-dark.png",
@@ -43,7 +43,7 @@ export const projects: Project[] = [
   {
     title: "Liabron",
     description:
-      "A role-based platform that connects vocational schools (YH), students and companies around the mandatory LIA internship. Schools load programme information once, from a PDF, and share an invite link; companies offer placements without reading PDFs, and students apply or share their own self-sourced placement for company confirmation. Built as a pilot with Lovable and extended with a focus on access control (server-verified roles, row-level security, private file storage) and personal-data protection. The idea was validated with my programme coordinator.",
+      "Challenge: coordinators and students contact companies one by one with PDFs, and companies lack guidance on LIA. Solution: a role-based platform where schools load programme information once and share an invite link; companies offer placements, and students apply or share a self-sourced placement for company confirmation. My role: I designed and built the pilot with Lovable, then reviewed and hardened it with server-verified roles, row-level security, private file storage and personal-data protection. Result: a live pilot in Swedish and English, with the idea validated by my programme coordinator.",
     tech: ["TanStack Start", "React", "TypeScript", "Supabase", "Row Level Security"],
     tags: ["Product", "Fullstack", "Building with AI"],
     liveUrl: "https://liabrons.lovable.app/",
@@ -134,6 +134,11 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
+    title: "Languages",
+    icon: GlobeIcon,
+    items: ["Spanish (native)", "Swedish", "English"],
+  },
+  {
     title: "Ways of Working",
     icon: UsersIcon,
     items: [
@@ -162,10 +167,5 @@ export const contactLinks: ContactLink[] = [
     label: "GitHub",
     href: "https://github.com/Floremila",
     Icon: GitHubIcon,
-  },
-  {
-    label: "Phone",
-    href: "tel:0046760153373",
-    Icon: PhoneIcon,
   },
 ];
